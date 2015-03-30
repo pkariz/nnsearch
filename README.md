@@ -7,8 +7,20 @@ It's a python package for searching exact and approximate nearest neighbors. It 
 ## Prerequisites?
 - numpy
 - matplotlib
-- FLANN: [FLANN page](http://www.cs.ubc.ca/research/flann/)installation is explained in their manual
-- Annoy: pip install https://pypi.python.org/packages/source/a/annoy/annoy-1.0.5.tar.gz
-       if you dont have boost then install boost first --> apt-get install libboost-all-dev
-- NearPy: pip install NearPy
-- scikit-learn: apt-get install python-sklearn
+- FLANN: [FLANN page](http://www.cs.ubc.ca/research/flann/) (installation is explained in their manual)
+- Annoy:
+```bash
+pip install https://pypi.python.org/packages/source/a/annoy/annoy-1.0.5.tar.gz
+```
+if you dont have boost then install boost first:
+```bash
+apt-get install libboost-all-dev
+```
+- NearPy:
+```bash
+pip install NearPy
+```
+- scikit-learn:
+```bash
+apt-get install python-sklearn
+```
