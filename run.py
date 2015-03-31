@@ -1,12 +1,8 @@
 import sys
-sys.path.append("/home/vegycslol/Documents/primoz/mag_delo/code/project/nnsearch")
 from nnsearch.approx import Annoy, RKDTree, BoundaryF, FlannAuto, HKmeans, LSHFlann, LSHNearPy
-
 from nnsearch.exact import BallTree, Brute, KDTree, KDTreeScikit, RTree, RSTree, PMTree
-
 from nearpy.hashes import RandomBinaryProjections
 from nearpy.distances import EuclideanDistance
-
 from nnsearch.datasets import Dataset, load_dataset, samples
 from nnsearch.flannindex import FlannIndex
 import time
