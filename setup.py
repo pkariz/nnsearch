@@ -7,9 +7,12 @@ setup(
     author_email='vegycslol@gmail.com',
     url="https://github.com/pkariz/nnsearch",
     packages = find_packages(),
-    package_data = {"": ["*.npy", "*.txt"]},
-    setup_requires=["numpy"]
-    install_requires = ["numpy", "matplotlib", "annoy", "NearPy", "scikit-learn"],
+    package_data = {"nnsearch.datasets": ["sample/*.npy"]}, #include datasets
+    install_requires = [
+        "setuptools",
+        "scikit-learn",
+        "matplotlib",
+        "NearPy"],
     license = 'GNU GPLv3',
     description = "Exact and approximate nearest neighbors search"
 )
